@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/heroku/rails3_serve_static_assets.git
+  revision: 825284e2db1ecebf9b6a61f4322864fb398c5733
+  specs:
+    rails3_serve_static_assets (0.0.1)
+
+GIT
+  remote: https://github.com/heroku/rails_log_stdout.git
+  revision: 868ae69489c05f8905650a27f0954c22ea0b9573
+  specs:
+    rails_log_stdout (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -216,6 +228,8 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.4, >= 6.1.4.1)
+  rails3_serve_static_assets!
+  rails_log_stdout!
   sass-rails (>= 6)
   selenium-webdriver
   spring
